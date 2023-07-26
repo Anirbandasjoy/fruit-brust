@@ -51,148 +51,68 @@
     <!-- navbar section  -->
 
     <header>
-      <section class="container mx-auto md:mt-5 hidden">
-        <div class="navbar md:bg-red-300 bg-white rounded-full lg:py-4 py-0">
-          <div class="navbar-start hidden md:block">
-            <ul class="flex gap-5 ml-8 md:text-sm text-white">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Shop </a></li>
-              <li><a href="#">All feature</a></li>
-            </ul>
-          </div>
-          <div class="navbar-center">
-            <div>
-              <img
-                src="./images/logo.png"
-                class="mr-4 lg:w-8 w-5 md:hidden lg:block"
-                alt=""
-              />
-            </div>
-            <div>
-              <a
-                class="normal-case lg:text-2xl xl md:text-white md:hidden lg:block text-gray-700 font-bold"
-                >Fruit Burst</a
-              >
-            </div>
-          </div>
-          <div class="navbar-end">
-            <div class="hidden md:block relative">
-              <input
-                type="text"
-                class="px-4 py-2 mr-10 rounded-full z-10"
-                placeholder="Search here "
-              />
-              <i
-                class="fa-solid fa-magnifying-glass absolute right-16 top-3 z-30"
-              ></i>
-            </div>
+      <section
+        class="mx-auto container flex justify-between lg:mt-4 text-center items-center bg-white sm:bg-[#F85559] md:p-4 md:py-2 lg:py-4 sm:px-5 px-1 sm:rounded-none lg:rounded-full"
+      >
+        <div class="w-56 hidden lg:block">
+          <ul class="flex gap-5 justify-center items-center text-white ml-8">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">contact</a></li>
+            <li><a href="#">blog</a></li>
+          </ul>
+        </div>
+        <div class="w-56">
+          <div class="flex justify-center items-center gap-3">
+            <img src="./images/logo.png" class="md:w-8 w-5" alt="" />
 
-            <div class="dropdown dropdown-end lg:hidden">
-              <label tabindex="0" class="btn btn-ghost btn-circle">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M4 6h16M4 12h16M4 18h7"
-                  />
-                </svg>
-              </label>
-              <ul
-                tabindex="0"
-                class="menu menu-xs dropdown-content mt-3 py-2 shadow bg-base-100 rounded-box w-52 z-50"
-              >
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Shop </a></li>
-                <li><a href="#">All feature</a></li>
-              </ul>
-            </div>
+            <a
+              class="normal-case md:text-2xl text-xl md:text-white text-gray-700 font-bold"
+              >Fruit Burst</a
+            >
           </div>
         </div>
-      </section>
-      <!-- ....................................... -->
-
-      <section class="container mx-auto lg:mt-5 mt-0">
-        <div
-          class="navbar bg-white md:bg-[#F85559] py-4 md:rounded-none lg:rounded-full mx-auto"
-        >
-          <div class="navbar-start hidden md:block">
-            <ul class="flex gap-5 ml-8 md:text-sm text-white">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Shop </a></li>
-              <li><a href="#">All feature</a></li>
-            </ul>
+        <div class="w-56 text-right">
+          <!-- end -->
+          <div class="hidden lg:block relative">
+            <input
+              type="text"
+              class="px-6 py-2 outline-none mr-2 rounded-full z-10 text-xs"
+              placeholder="Search here "
+            />
+            <i
+              class="fa-solid fa-magnifying-glass absolute right-8 top-[.6rem] inline-block w-2 h-2 z-30"
+            ></i>
           </div>
-          <div class="navbar-center">
-            <div>
-              <img
-                src="./images/logo.png"
-                class="mr-4 w-8 md:hidden lg:block"
-                alt=""
-              />
-            </div>
-            <div>
-              <a
-                class="normal-case text-2xl md:text-white md:hidden lg:block text-gray-700 font-bold"
-                >Fruit Burst</a
+
+          <div class="dropdown dropdown-end lg:hidden">
+            <label tabindex="0" class="btn btn-ghost btn-circle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="sm:w-8 sm:h-8 w-6 h-6"
               >
-            </div>
-          </div>
-          <div class="navbar-end">
-            <!-- input fild -->
-            <div class="hidden md:block relative">
-              <input
-                type="text"
-                class="px-4 py-2 mr-10 rounded-full z-10"
-                placeholder="Search here "
-              />
-              <i
-                class="fa-solid fa-magnifying-glass absolute right-16 top-3 z-30"
-              ></i>
-            </div>
-
-            <button>
-              <div class="indicator md:hidden">
-                <div class="dropdown dropdown-end">
-                  <label tabindex="0" class="btn btn-ghost btn-circle">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke-width="1.5"
-                      stroke="currentColor"
-                      class="w-8 h-8"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-                      />
-                    </svg>
-                  </label>
-                  <ul
-                    tabindex="0"
-                    class="menu py-3 mx-0 dropdown-content shadow bg-base-100 menu-sm w-48 mt-3 p-4 z-50 mx-end"
-                  >
-                    <li><a class="text-[.5rem] mr-5" href="#">Home</a></li>
-                    <li><a class="text-[.5rem] mr-5" href="#">About us</a></li>
-                    <li><a class="text-[.5rem] mr-5" href="#">Shop </a></li>
-                    <li>
-                      <a class="text-[.5rem] mr-5" href="#">All feature</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </button>
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                />
+              </svg>
+            </label>
+            <ul
+              tabindex="0"
+              class="menu py-3 mx-0 dropdown-content shadow bg-base-100 menu-sm w-48 mt-3 p-4 z-50 mx-end"
+            >
+              <li><a class="text-[.5rem] mr-5" href="#">Home</a></li>
+              <li><a class="text-[.5rem] mr-5" href="#">About us</a></li>
+              <li><a class="text-[.5rem] mr-5" href="#">Shop </a></li>
+              <li>
+                <a class="text-[.5rem] mr-5" href="#">All feature</a>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
@@ -200,7 +120,7 @@
     <main>
       <!-- banner section -->
 
-      <section class="container mx-auto mt-5">
+      <section class="container mx-auto mt-5 px-3 sm:py-0">
         <div class="carousel">
           <div id="slide1" class="carousel-item relative w-full">
             <img src="./images/banner1.png" class="w-full" />
